@@ -5,7 +5,7 @@ import joblib  # For loading the trained model
 
 # Load pre-trained BMI model and food dataset
 bmi_model_path = 'bmi_model.pkl'  # Replace with your trained model path
-food_data_path = '/Users/dhrumilpatel/Downloads/cleaned_dataset.csv'  # Replace with your cleaned dataset path
+food_data_path = './cleaned_dataset.csv'  # Replace with your cleaned dataset path
 
 # Load the BMI model and food dataset
 bmi_model = joblib.load(bmi_model_path)
